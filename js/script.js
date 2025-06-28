@@ -1,3 +1,12 @@
+var doCoolStuff = function () {
+    var currentClassame = document.getElementById('cool').className;
+    if (currentClassame == 'cool') {
+        document.getElementById('cool').className = 'cool red';
+    }else{
+        document.getElementById('cool').className = 'cool';
+    }
+}
+
 // Create a car object with various properties and methods
 var car = {
     make: 'Suzuki',                                       // Car brand
@@ -30,4 +39,3 @@ var car = {
         alert('I drive a ' + this.year + ' ' + this.make + ' ' + this.type + ' ' + 'color: ' + this.color + ' No of wheels: ' + this.numOfWheels + ' No of seats: ' + this.seats.length);
     }
 };
-
