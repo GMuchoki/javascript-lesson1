@@ -25,6 +25,9 @@ var car = {
         } else {
             this.isTurnedOn = false;               // Turn the car off
         }
+    },
+    myCarSpecs: function () {
+        alert('I drive a ' + this.year + ' ' + this.make + ' ' + this.type + ' ' + 'color: ' + this.color + ' No of wheels: ' + this.numOfWheels + ' No of seats: ' + this.seats.length);
     }
 };
 
